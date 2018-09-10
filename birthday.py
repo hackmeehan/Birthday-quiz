@@ -43,7 +43,7 @@ day = input('And the day?')
 
 if month==month_name[todaymonth] and day==str(todaydate):
     then print('Happy Birthday!')
-elif str(month)=='october' or 'October' and str(day)=='31':
+elif month in ['october', 'October'] and day=='31':
     then print('You were born on Halloween!')
 
 stoneage = [>1980]
