@@ -36,17 +36,19 @@ from calendar import month_name
 todaymonth = datetime.today().month
 todaydate = datetime.today().day
 
+print(type(todaymonth))
+
 name = input('Hello, what is your name?')
 month = input('Hi ' + name + ', what was the name of the month you were born in?')
 year = input('And what year were you born in, ' + name + '?')
 day = input('And the day?')
 
 if month==month_name[todaymonth] and day==str(todaydate):
-    then print('Happy Birthday!')
+    print('Happy Birthday!')
 elif month in ['october', 'October'] and day=='31':
-    then print('You were born on Halloween!')
+    print('You were born on Halloween!')
 
-stoneage = [>1980]
+'''stoneage = [>1980]
 eighties = [1980, 1981, 1982, 1983, 1984, 1985, 1986, 1987, 1988, 1989]
 nineties = [1990, 1991, 1992, 1993, 1994, 1995, 1996, 1997, 1998, 1999]
 twothousands = [>2000]
@@ -54,7 +56,7 @@ twothousands = [>2000]
 winter = ['December', 'december', 'january', 'January', 'February', 'february']
 spring = ['March', 'march', 'april', 'April', 'may', 'May']
 summer = ['june', 'June', 'July', 'july', 'august', 'August']
-fall = ['october', 'October', 'november', 'November', 'December', 'december']
+fall = ['october', 'October', 'november', 'November', 'December', 'december']'''
 
 
 
