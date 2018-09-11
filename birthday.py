@@ -38,45 +38,45 @@ todaydate = datetime.today().day
 
 name = input('Hello, what is your name? ')
 month = input('Hi ' + name + ', what was the name of the month you were born in? ')
-year = input('And what year were you born in, ' + name + '? ')
+year = int(input('And what year were you born in, ' + name + '? '))
 day = input('And the day? ')
 
-if month==month_name[todaymonth] and day==str(todaydate):
+if s.lower(month)==s.lower(month_name[todaymonth]) and day==str(todaydate):
     print('Happy Birthday!')
 elif month in ['october', 'October'] and day=='31':
     print('You were born on Halloween!')
 elif month in ['December', 'december', 'january', 'January', 'February', 'february'] and year in range(1000,1980):
-    print(''+ name + 'you are a winter baby of the stone age.')
+    print(''+ name + ', you are a winter baby of the stone age.')
 elif month in ['December', 'december', 'january', 'January', 'February', 'february'] and year in [1980, 1981, 1982, 1983, 1984, 1985, 1986, 1987, 1988, 1989]:
-    print(''+ name + 'you are a winter baby of the eighties.')
+    print(''+ name + ', you are a winter baby of the eighties.')
 elif month in ['December', 'december', 'january', 'January', 'February', 'february'] and year in [1990, 1991, 1992, 1993, 1994, 1995, 1996, 1997, 1998, 1999]:
-    print(''+ name + 'you are a winter baby of the nineties.')
+    print(''+ name + ', you are a winter baby of the nineties.')
 elif month in ['December', 'december', 'january', 'January', 'February', 'february'] and year in range(2000,2018):
-    print(''+ name + 'you are a winter baby of the two thousands.')
+    print(''+ name + ', you are a winter baby of the two thousands.')
 elif month in ['March', 'march', 'april', 'April', 'may', 'May'] and year in range(1000,1980):
-    print(''+ name + 'you are a spring baby of the stone age.')
+    print(''+ name + ', you are a spring baby of the stone age.')
 elif month in ['March', 'march', 'april', 'April', 'may', 'May'] and year in [1980, 1981, 1982, 1983, 1984, 1985, 1986, 1987, 1988, 1989]:
-    print(''+ name + 'you are a spring baby of the eighties.')
+    print(''+ name + ', you are a spring baby of the eighties.')
 elif month in ['March', 'march', 'april', 'April', 'may', 'May'] and year in [1990, 1991, 1992, 1993, 1994, 1995, 1996, 1997, 1998, 1999]:
-    print(''+ name + 'you are a spring baby of the nineties.')
+    print(''+ name + ', you are a spring baby of the nineties.')
 elif month in ['March', 'march', 'april', 'April', 'may', 'May'] and year in range(2000,2018):
-    print(''+ name + 'you are a spring baby of the two thousands.')
+    print(''+ name + ', you are a spring baby of the two thousands.')
 elif month in ['june', 'June', 'July', 'july', 'august', 'August'] and year in range(1000,1980):
-    print(''+ name + 'you are a summer baby of the stone age.')
+    print(''+ name + ', you are a summer baby of the stone age.')
 elif month in ['june', 'June', 'July', 'july', 'august', 'August'] and year in [1980, 1981, 1982, 1983, 1984, 1985, 1986, 1987, 1988, 1989]:
-    print(''+ name + 'you are a summer baby of the eighties.')
+    print(''+ name + ', you are a summer baby of the eighties.')
 elif month in ['june', 'June', 'July', 'july', 'august', 'August'] and year in [1990, 1991, 1992, 1993, 1994, 1995, 1996, 1997, 1998, 1999]:
-    print(''+ name + 'you are a summer baby of the nineties.')
+    print(''+ name + ', you are a summer baby of the nineties.')
 elif month in ['june', 'June', 'July', 'july', 'august', 'August'] and year in range(2000,2018):
-    print(''+ name + 'you are a summer baby of the two thousands.')
+    print(''+ name + ', you are a summer baby of the two thousands.')
 elif month in ['october', 'October', 'november', 'November', 'December', 'december'] and year in range(1000,1980):
-    print(''+ name + 'you are a summer baby of the stone age.')
+    print(''+ name + ', you are a summer baby of the stone age.')
 elif month in ['october', 'October', 'november', 'November', 'December', 'december'] and year in [1980, 1981, 1982, 1983, 1984, 1985, 1986, 1987, 1988, 1989]:
-    print(''+ name + 'you are a summer baby of the eighties.')
+    print(''+ name + ', you are a summer baby of the eighties.')
 elif month in ['october', 'October', 'november', 'November', 'December', 'december'] and year in [1990, 1991, 1992, 1993, 1994, 1995, 1996, 1997, 1998, 1999]:
-    print(''+ name + 'you are a summer baby of the nineties.')
+    print(''+ name + ', you are a summer baby of the nineties.')
 elif month in ['october', 'October', 'november', 'November', 'December', 'december'] and year in range(2000,2018):
-    print(''+ name + 'you are a summer baby of the two thousands.')
+    print(' '+ name + ', you are a summer baby of the two thousands.')
 
 
 
