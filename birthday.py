@@ -41,7 +41,7 @@ month = input('Hi ' + name + ', what was the name of the month you were born in?
 year = int(input('And what year were you born in, ' + name + '? '))
 day = input('And the day? ')
 
-if s.lower(month)==s.lower(month_name[todaymonth]) and day==str(todaydate):
+if (month.lower)==(todaymonth.lower(month_name[todaymonth])) and day==str(todaydate):
     print('Happy Birthday!')
 elif month in ['october', 'October'] and day=='31':
     print('You were born on Halloween!')
@@ -77,23 +77,6 @@ elif month in ['october', 'October', 'november', 'November', 'December', 'decemb
     print(''+ name + ', you are a summer baby of the nineties.')
 elif month in ['october', 'October', 'november', 'November', 'December', 'december'] and year in range(2000,2018):
     print(' '+ name + ', you are a summer baby of the two thousands.')
-
-
-
-'''stoneage = [>1980]
-eighties = [1980, 1981, 1982, 1983, 1984, 1985, 1986, 1987, 1988, 1989]
-nineties = [1990, 1991, 1992, 1993, 1994, 1995, 1996, 1997, 1998, 1999]
-twothousands = [>2000]
-
-winter = ['December', 'december', 'january', 'January', 'February', 'february']
-spring = ['March', 'march', 'april', 'April', 'may', 'May']
-summer = ['june', 'June', 'July', 'july', 'august', 'August']
-fall = ['october', 'October', 'november', 'November', 'December', 'december']'''
-
-
-
-
-
 
 
 
