@@ -1,7 +1,7 @@
 """
 birthday.py
-Author: <your name here>
-Credit: <list sources used, if any>
+Author: JackMeehan
+Credit: lowercase letter help: https://stackoverflow.com/questions/6797984/how-to-convert-string-to-lowercase-in-python
 Assignment:
 
 Your program will ask the user the following questions, in this order:
@@ -41,7 +41,7 @@ month = input('Hi ' + name + ', what was the name of the month you were born in?
 year = int(input('And what year were you born in, ' + name + '? '))
 day = input('And the day? ')
 
-if (month.lower)==(todaymonth.lower(month_name[todaymonth])) and day==str(todaydate):
+if str.lower(month)==str.lower(month_name[todaymonth]) and day==str(todaydate):
     print('Happy Birthday!')
 elif month in ['october', 'October'] and day=='31':
     print('You were born on Halloween!')
@@ -69,14 +69,14 @@ elif month in ['june', 'June', 'July', 'july', 'august', 'August'] and year in [
     print(''+ name + ', you are a summer baby of the nineties.')
 elif month in ['june', 'June', 'July', 'july', 'august', 'August'] and year in range(2000,2018):
     print(''+ name + ', you are a summer baby of the two thousands.')
-elif month in ['october', 'October', 'november', 'November', 'December', 'december'] and year in range(1000,1980):
-    print(''+ name + ', you are a summer baby of the stone age.')
-elif month in ['october', 'October', 'november', 'November', 'December', 'december'] and year in [1980, 1981, 1982, 1983, 1984, 1985, 1986, 1987, 1988, 1989]:
-    print(''+ name + ', you are a summer baby of the eighties.')
-elif month in ['october', 'October', 'november', 'November', 'December', 'december'] and year in [1990, 1991, 1992, 1993, 1994, 1995, 1996, 1997, 1998, 1999]:
-    print(''+ name + ', you are a summer baby of the nineties.')
-elif month in ['october', 'October', 'november', 'November', 'December', 'december'] and year in range(2000,2018):
-    print(' '+ name + ', you are a summer baby of the two thousands.')
+elif month in ['September', 'september', 'october', 'October', 'november', 'November', 'December', 'december'] and year in range(1000,1980):
+    print(''+ name + ', you are a fall baby of the stone age.')
+elif month in ['September', 'september', 'october', 'October', 'november', 'November', 'December', 'december'] and year in [1980, 1981, 1982, 1983, 1984, 1985, 1986, 1987, 1988, 1989]:
+    print(''+ name + ', you are a fall baby of the eighties.')
+elif month in ['September', 'september', 'october', 'October', 'november', 'November', 'December', 'december'] and year in [1990, 1991, 1992, 1993, 1994, 1995, 1996, 1997, 1998, 1999]:
+    print(''+ name + ', you are a fall baby of the nineties.')
+elif month in ['September', 'september', 'october', 'October', 'november', 'November', 'December', 'december'] and year in range(2000,2018):
+    print(' '+ name + ', you are a fall baby of the two thousands.')
 
 
 
